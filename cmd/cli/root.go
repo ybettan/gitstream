@@ -28,6 +28,7 @@ type App struct {
 func (a *App) GetCLIApp() *cli.App {
 	const logLevelFlagName = "log-level"
 
+	//comment
 	var (
 		configPath string
 		flagDryRun = &cli.BoolFlag{
